@@ -4,7 +4,7 @@ in charge of research and development of mobile based soluitions for financial s
 
 frequently used tech stack includes aws-ec2, aws-lambda, serverless, flutter, android, iOS.
 
-passionate about problem solving, Java, dart and Python lover.
+passionate about problem solving; Java, dart and Python lover.
 
 i am very selective about adding people in my Facebook and any other social media platform. so, please don't get upset if you do not get any response. but, no worries, let's get connected on a professional platform like- [linked in](https://www.linkedin.com/in/al-asad/).
 
@@ -28,7 +28,7 @@ i am very selective about adding people in my Facebook and any other social medi
 
 ## open_source_contribution
 
-I am in charge of maintain and collaborating this ope source project of seasteading
+I am in charge of maintaining and collaborating this open source project of seasteading
 
 https://github.com/oceanbuilders/
 
