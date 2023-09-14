@@ -52,9 +52,6 @@ https://github.com/oceanbuilders/
 - Other Skills
   - Project Management, Game Design, Game Architecture
 
-## academic_honors
+## certification_and_training
 
-- Higher Secondary Certificate Scholarship, Rajshahi Board, Bangladesh (2005)
-- Secondary School Certificate Scholarship, Rajshahi Board, Bangladesh (2003)
-- Junior Government Scholarship in Talent-Pool Category(2000)
-- Primary Government Scholarship in Talent-Pool Category(1997)
+- Certificate of Completion of Training on Java Standard Edition \& Java Enterprise Edition(June 2019)
