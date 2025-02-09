@@ -7,33 +7,112 @@ import ContactCTA from '../components/ContactCTA.astro';
 import PortfolioPreview from '../components/PortfolioPreview.astro';
 import Hero from '../components/Hero.astro';
 import Grid from '../components/Grid.astro';
+import Pill from '../components/Pill.astro';
 
-const projects = (await getCollection('work')).sort(
+const experiences = (await getCollection('experience')).sort(
 	(a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf(),
 );
+
 ---
 
-<BaseLayout
-	title="My Experience | Abdullah Al Asad"
-	description="Learn about Abdullah Al Asad's past work experience"
->
+<BaseLayout title="My Experience | Abdullah Al Asad" description="Learn about Abdullah Al Asad's past work experience">
 	<div class="stack gap-20">
-		<main class="wrapper stack gap-8">
+		<main class="wrapper about">
 			<Hero
-				title="My Experience"
+				title="Experience"
 				tagline="Discover the milestones that define my professional journey."
-				align="start"
-			/>
-			<Grid variant="offset">
+			>
+				<!-- <img
+					width="1553"
+					height="873"
+					src="/assets/at-work.jpg"
+					alt="Abdullah Al Asad at work with a colleague"
+				/> -->
+			</Hero>
+
 				{
-					projects.map((project) => (
-						<li>
-							<PortfolioPreview project={project} />
-						</li>
+					experiences.map((exp) => (
+				
+							<section>
+				<h2 class="section-title">{exp.data.yearRange}</h2>
+				
+				<div class="content">
+					<strong>{exp.data.role} - {exp.data.company}</strong>
+					<p>{exp.body}</p>
+					<div class="tags">
+								{exp.data.skills.map((t) => <Pill>{t}</Pill>)}
+							</div>
+
+				</div>
+			</section>
 					))
 				}
-			</Grid>
+
+
 		</main>
+
 		<ContactCTA />
 	</div>
 </BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+		.tags {
+		display: flex;
+		gap: 0.5rem;
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>

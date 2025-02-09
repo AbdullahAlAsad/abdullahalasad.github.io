@@ -14,4 +14,15 @@ export const collections = {
 			img_alt: z.string().optional(),
 		}),
 	}),
+	experience: defineCollection({
+		// Load Markdown files in the src/content/experience directory.
+		loader: glob({ base: './src/content/experience', pattern: '**/*.md', }),
+		schema: z.object({
+			yearRange: z.string(),
+			role: z.string(),
+			publishDate: z.coerce.date(),
+			skills: z.array(z.string()),
+			company: z.string(),
+		}),
+	}),
 };
