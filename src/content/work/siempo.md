@@ -1,6 +1,6 @@
 ---
 title: "Siempo Mindful Phone Development"
-publishDate: 2025-02-08 00:00:00
+publishDate: 2015-02-08 00:00:00
 img: "/assets/siempo.png"
 img_alt: "Mindful phone interface promoting focus and well-being."
 description: |

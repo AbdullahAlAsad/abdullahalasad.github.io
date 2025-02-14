@@ -1,6 +1,6 @@
 ---
 title: "Islamic Life Application Development"
-publishDate: 2025-02-08 00:00:00
+publishDate: 2014-02-08 00:00:00
 img: "/assets/srbd.jpeg"
 img_alt: "User interface of the Islamic Life application featuring night mode."
 description: |

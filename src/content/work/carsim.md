@@ -1,6 +1,6 @@
 ---
 title: "2D Car Simulation Game Development"
-publishDate: 2025-02-08 00:00:00
+publishDate: 2012-02-01 00:00:00
 img: "/assets/adtd.png"
 img_alt: "Gameplay interface of a 2D car simulation game."
 description: |

@@ -1,6 +1,6 @@
 ---
 title: "Versatile Tracking Application Development"
-publishDate: 2025-02-08 00:00:00
+publishDate: 2017-02-08 00:00:00
 img: "/assets/gps71.png"
 img_alt: "Tracking application interface displaying geolocation and monitoring features."
 description: |

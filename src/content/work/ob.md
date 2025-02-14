@@ -1,6 +1,6 @@
 ---
 title: "Sea Pod IoT and Smart Home Application Development"
-publishDate: 2025-02-08 00:00:00
+publishDate: 2024-02-08 00:00:00
 img: "/assets/ob.png"
 img_alt: "Smart home dashboard interface for Sea Pods."
 description: |

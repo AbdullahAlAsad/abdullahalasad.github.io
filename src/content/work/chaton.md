@@ -1,6 +1,6 @@
 ---
 title: "Samsung ChatOn Application Enhancement"
-publishDate: 2025-02-08 00:00:00
+publishDate: 2014-03-08 00:00:00
 img: "/assets/chaton.png"
 img_alt: "Enhanced messaging interface for Samsung ChatOn application."
 description: |

@@ -1,6 +1,6 @@
 ---
 title: "Sonali e-Wallet Development Project"
-publishDate: 2025-02-08 00:00:00
+publishDate: 2019-04-08 00:00:00
 img: "/assets/sbl.png"
 img_alt: "Digital financial transaction interface for Sonali e-Wallet."
 description: |

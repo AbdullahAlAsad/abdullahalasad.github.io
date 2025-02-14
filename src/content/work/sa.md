@@ -1,6 +1,6 @@
 ---
 title: "Sentiment and Interest Detection in Social Media Using GPT-based Large Language Models"
-publishDate: 2023-09-15 00:00:00
+publishDate: 2024-09-15 00:00:00
 img: "/assets/sa.png"
 img_alt: "Dashboard visualization showing sentiment and interest detection insights."
 description: |

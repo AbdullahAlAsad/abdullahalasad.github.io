@@ -1,6 +1,6 @@
 ---
 title: "Cut the Rope Style Game Development"
-publishDate: 2025-02-08 00:00:00
+publishDate: 2012-03-08 00:00:00
 img: "/assets/libgdx.png"
 img_alt: "Gameplay interface of a cut-the-rope style Android game."
 description: |
